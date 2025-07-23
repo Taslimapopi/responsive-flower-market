@@ -62,9 +62,10 @@ ul{
 }
 
 
-/* .plant-name, .price{
-    text-align: center;
-} */
+/* plant section */
+.plant-section{
+    margin-top: 80px;
+}
 
 .plant-sec-content{
     text-align: center;
@@ -194,4 +195,23 @@ footer{
 }
 .part4 img{
     margin-right: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .menu-li{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .plants-sec-cards{
+        grid-template-columns: repeat(2,2fr);
+    }
+
 }
