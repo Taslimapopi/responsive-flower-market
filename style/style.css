@@ -123,8 +123,8 @@ ul {
   gap: 30px;
   margin: 150px auto;
 }
-.lover-img {
-  width: 70%;
+.lover-img img{
+  width: 100%;
 }
 .plant-lover-sec {
   position: relative;
@@ -194,6 +194,7 @@ ul {
   font-size: 3.1rem;
   font-weight: 700;
   margin-bottom: 0;
+  margin-top: 0;
 
 }
 .deal-style{
@@ -331,10 +332,6 @@ footer {
     margin-bottom: 10px;
   }
 
-  .lover-img {
-    width: 100%;
-    max-width: 358px;
-  }
   .badge {
     display: none;
   }
